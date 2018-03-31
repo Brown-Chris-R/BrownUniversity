@@ -1,14 +1,31 @@
 ﻿body {
+    font-family: 'Oxygen', sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:floralwhite;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.jumbotron {
+    background: url("/images/brown-university.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+    .jumbotron h1, .jumbotron .h1 {
+        font-family: 'Italianno', cursive;
+        text-align: center;
+        background-color: #f7bf5e;
+        opacity: 0.8;
+    }
+
+
+    /* Wrapping element */
+    /* Set some basic padding to keep content from hitting the edges */
+    .body-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
 /* Carousel */
 .carousel-caption p {
@@ -21,9 +38,54 @@
     width: 100%;
 }
 
+/* Navbar customizations */
+.navbar {
+    font-family: 'Merriweather', serif;
+    background-color: darkred;
+    border-color: #080808;
+    line-height: 26px;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 24px;
+    color: bisque;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: bisque;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        text-decoration: none;
+        /*color: lime;*/
+        background-color: firebrick;
+    }
+
 /* QR code generator */
 #qrCode {
     margin: 15px;
+}
+
+.has-float-label > span {
+    position: relative;
+}
+
+.home {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+.home h2, .home .h2 {
+    font-family: 'Italianno', cursive;
+}
+
+.checkbox-table tr, .checkbox-table .tr 
+{
+    vertical-align: top;
+}
+
+.checkbox-table td, .checkbox-table .td 
+{
+    padding-right: 5px;
 }
 
 /* Hide/rearrange for smaller screens */
